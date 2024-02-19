@@ -1,0 +1,101 @@
+/* Feed.css */
+
+body {
+    background-color: lightslategray;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .feedContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    padding: 15px;
+    background-color: #555;
+    border-radius: 8px;
+  }
+  
+  .post p {
+    margin: 10px 0;
+  }
+  
+  .postButtons {
+    margin-top: 10px;
+  }
+  
+  .postButtons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .postButtons button.liked {
+    background-color: #e74c3c;
+  }
+  
+  .commentsSection {
+    margin-top: 20px;
+  }
+  
+  .commentsSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .commentsSection li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling the form */
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea,
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Responsive design */
+  h1{
+    color:#333;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .post {
+      padding: 10px;
+    }
+  }
+  
